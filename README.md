@@ -1,0 +1,2 @@
+# Script.
+Chúa báo pro
