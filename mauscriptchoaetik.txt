@@ -55,7 +55,7 @@ local Tabs = {
 -- TAB 1: Các kênh tiktok
 ------------------------------------------------
 Tabs.Main0:AddButton({
-	Title = "tiktok",              -- 👈 tên nút
+	Title = "@a.khoi266",              -- 👈 tên nút
 	Description = "oách xà lách vô cùng",-- 👈 mô tả nút
 	Callback = function()
 		setclipboard("@a.khoi266")  -- 👈 link sao chép
@@ -104,15 +104,3 @@ Tabs.Main4:AddButton({
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
 	end
 })
-
-Tabs.Main4:AddButton({
-	Title = "datthg",                             -- 👈 tên nút hiển thị
-	Description = "script này ngon á đủ chức năng cả😃",-- 👈 mô tả
-	Callback = function()
-		local Settings = {
-			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
-			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
-		}
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV3Eng"))()
-	end
-}
